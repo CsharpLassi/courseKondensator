@@ -35,5 +35,4 @@ jobs:
 
     - name: Build Courselet - Kondensator
       run: |
-        cd Python
         pycourselet Kondensator
