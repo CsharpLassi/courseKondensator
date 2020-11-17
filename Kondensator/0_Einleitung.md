@@ -1,0 +1,11 @@
+# Einleitung
+
+Bei Fehlern jeglicher Art schreiben sie mir gerne eine E-Mail an: christoph.lassmann@bsztw-riesa.lernsax.de 
+
+## Beschreibung
+
+In diesem Kurs wird die Funktionsweise des Kondensators genauer erklärt.
+
+## Hinweis
+
+Dieser Kurs befindet sich noch in der Bearbeitung und es gibt bis jetzt nur Übungsaufgaben.
