@@ -23,7 +23,17 @@ jobs:
         pip install -r requirements/production.txt
         python -m pip install pycourselet
 
-    - name: Test Main
+    - name: Test Python
       run: |
         cd Python
         python main.py --test
+
+    - name: Build Python
+      run: |
+        cd Python
+        python main.py
+
+    - name: Build Courselet - Kondensator
+      run: |
+        cd Python
+        pycourselet Kondensator
