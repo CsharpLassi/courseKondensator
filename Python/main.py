@@ -14,17 +14,24 @@ def print_charge_curve():
     y = u * (1 - np.exp(-x / tau))
     t = u / tau * x
 
-    plt.plot(x, y)
-    plt.plot(x, t)
+    plt.plot(x, y, 'g')
 
     plt.grid()
     plt.xlim((0, x[-1]))
     plt.ylim((0, u * 1.1))
 
     plt.xlabel(r'Zeit in s')
-    plt.ylabel(r'Zeit in V')
+    plt.ylabel(r'Spannung in V')
 
-    plt.savefig('output/charge_curve.png')
+    # U_0
+    plt.axhline(u, color='b')
+    plt.text(0.3, u + 0.1, '$U$', fontsize=12)
+
+    plt.savefig('output/ladekurve.png')
+
+    # Tangente
+    plt.plot(x, t, 'm')
+    plt.savefig('output/ladekurve_tangende.png')
 
 
 def main():

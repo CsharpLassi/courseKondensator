@@ -52,8 +52,6 @@ Die häufigste Anwendung eines Kondensators ist die Anwendung als Tiefpass.
 
 ![Tiefpass](https://upload.wikimedia.org/wikipedia/commons/e/e8/Tiefpass.svg)
 
-Von Fleshgrinder - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=8054477
-
 6. Berechnen Sie von einem Tiefpass die Zeitkonstante $\tau$ für eine Kondensator mit der Kapazität von $220 \mu \text{F}$ und einem Widerstand von $100 \text{k}\Omega$.
 
    [] $2,2 \text{s}$
@@ -72,7 +70,7 @@ Von Fleshgrinder - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/ind
 
 In den nachfolgenden Aufgaben benötigen Sie folgendes Diagramm:
 
-![Ladekurve](../Python/output/charge_curve.png)
+![Ladekurve](../Bilder/Diagramme/ladekurve_tangende.png)
 
 8. Bestimmen Sie aus dem Diagramm die Zeitkonstante $\tau$.
 
