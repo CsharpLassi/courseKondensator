@@ -6,10 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def print_charge_curve():
-    tau = 2
-    u = 5
-
+def print_charge_curve(name: str, u=5, tau=2, e_tau='s'):
     x = np.linspace(0, 6.5 * tau)
     y = u * (1 - np.exp(-x / tau))
     t = u / tau * x
@@ -20,24 +17,31 @@ def print_charge_curve():
     plt.xlim((0, x[-1]))
     plt.ylim((0, u * 1.1))
 
-    plt.xlabel(r'Zeit in s')
+    plt.xlabel(rf'Zeit in {e_tau}')
     plt.ylabel(r'Spannung in V')
 
     # U_0
     plt.axhline(u, color='b')
     plt.text(0.3, u + 0.1, '$U$', fontsize=12)
 
-    plt.savefig('output/ladekurve.png')
+    f_name = f'output/{name}.png'
+    os.makedirs(os.path.dirname(f_name), exist_ok=True)
+
+    plt.savefig(f_name)
 
     # Tangente
     plt.plot(x, t, 'm')
-    plt.savefig('output/ladekurve_tangende.png')
+
+    f_name = f'output/{name}_tangende.png'
+    os.makedirs(os.path.dirname(f_name), exist_ok=True)
+    plt.savefig(f_name)
+
+    plt.clf()
 
 
 def main():
-    os.makedirs('output', exist_ok=True)
-
-    print_charge_curve()
+    print_charge_curve('ladekurve')
+    print_charge_curve('versuch1/ladekurve', tau=1, u=4, e_tau='ms')
 
 
 if __name__ == '__main__':
