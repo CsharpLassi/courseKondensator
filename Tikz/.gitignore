@@ -1,0 +1,7 @@
+# Tex
+*.pdf
+
+*.aux
+*.log
+*synctex.gz
+
