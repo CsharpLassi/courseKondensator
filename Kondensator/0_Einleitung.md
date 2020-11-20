@@ -2,7 +2,7 @@
 
 Bei Fehlern jeglicher Art schreiben sie mir gerne eine E-Mail an: christoph.lassmann@bsztw-riesa.lernsax.de 
 
-Oder helfen Sie bei der Weiterentwicklung dieses Kurses unter:
+Oder helfen Sie bei der Weiterentwicklung dieses Kurses mit:
 
 https://github.com/CsharpLassi/courseKondensator
 
