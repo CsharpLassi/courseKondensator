@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<form>
+  <title>Kondensator-Versuch-1</title>
+  <abstract>Formular für die Ergebnisse für den Versuch 1 - Bestimmen von Kapazitäten.</abstract>
+  <confirmation>Vielen Dank</confirmation>
+  <fields>
+    <field>
+      <name>Teilnehmer</name>
+      <heading>Teilnehmer</heading>
+      <type>VARCHAR</type>
+      <label>Name</label>
+      <required>1</required>
+      <explanation>Dein Name</explanation>
+      <placeholder>Max Mustermann</placeholder>
+    </field>
+    <field>
+      <name>Partner</name>
+      <type>VARCHAR</type>
+      <label>Partner</label>
+      <explanation>Partner, wenn Gruppenarbeit</explanation>
+      <placeholder>Erica Mustermann</placeholder>
+    </field>
+    <field>
+      <name>Teilnehmer-EMail</name>
+      <type>EMAIL</type>
+      <label>E-Mail Teilnehmer</label>
+      <explanation>E-Mail Adresse für eine Rückmeldung zum Versuch</explanation>
+    </field>
+    <field>
+      <name>Partner-EMail</name>
+      <type>EMAIL</type>
+      <label>E-Mail Partner</label>
+      <explanation>E-Mail Adresse für eine Rückmeldung zum Versuch</explanation>
+    </field>
+    <field>
+      <name>Widerstand</name>
+      <heading>Vorbereitung</heading>
+      <type>VARCHAR</type>
+      <label>Widerstand in kOhm</label>
+      <required>1</required>
+      <explanation>Widerstandswert vom Multimeter</explanation>
+      <placeholder>4,7</placeholder>
+    </field>
+    <field>
+      <name>Kondensator</name>
+      <type>VARCHAR</type>
+      <label>Kapazität in µF</label>
+      <required>1</required>
+      <explanation>Kapazität vom Kondensator</explanation>
+      <placeholder>0,22</placeholder>
+    </field>
+    <field>
+      <name>Zeitkonstante</name>
+      <type>VARCHAR</type>
+      <label>Zeitkonstante Schaltung in ms</label>
+      <required>1</required>
+      <explanation>Zeitkonstante der Schaltung</explanation>
+      <placeholder>1</placeholder>
+    </field>
+    <field>
+      <name>Frequenz</name>
+      <type>VARCHAR</type>
+      <label>Berechnete Frequenz in Hz</label>
+      <required>1</required>
+      <explanation>Messfrequenz</explanation>
+      <placeholder>200</placeholder>
+    </field>
+    <field>
+      <name>Zeitkonstante-Gemessen</name>
+      <heading>Messwerte</heading>
+      <type>VARCHAR</type>
+      <label>gemessene Zeitkonstante der Schaltung in ms</label>
+      <required>1</required>
+      <explanation>Zeitkonstante die Sie, mit dem Oszilloskop, messen.</explanation>
+      <placeholder>1</placeholder>
+    </field>
+    <field>
+      <name>Kapazität-Gemessen</name>
+      <type>VARCHAR</type>
+      <label>gemessene Kapazität des Kondensators in µF</label>
+      <required>1</required>
+      <explanation>gemessene Kapazität des Kondensators</explanation>
+      <placeholder>0,22</placeholder>
+    </field>
+  </fields>
+</form>
