@@ -10,6 +10,4 @@ https://github.com/CsharpLassi/courseKondensator
 
 In diesem Kurs wird die Funktionsweise des Kondensators genauer erklärt.
 
-## Hinweis
-
-Dieser Kurs befindet sich noch in der Bearbeitung und es gibt bis jetzt nur Übungsaufgaben.
+## Hinweis Übungsaufgaben
