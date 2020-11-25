@@ -142,6 +142,8 @@ def main():
     print_square_function('square_2', f_f=2)
     print_square_function('square_4', f_f=4)
 
+    print_square_function('versuch1/oszilloskop', tau=1, u=4, e_tau='ms')
+
     print_sin_function('sin_1')
     print_sin_function('sin_2', f_f=2)
     print_sin_function('sin_4', f_f=4)
