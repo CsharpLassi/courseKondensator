@@ -10,4 +10,18 @@ https://github.com/CsharpLassi/courseKondensator
 
 In diesem Kurs wird die Funktionsweise des Kondensators genauer erklärt.
 
-## Hinweis Übungsaufgaben
+## Simulationen
+
+Für diesen Kurz gibt es eine Vielzahl von Simulationen, die Simulationen sind in Python programmiert und können online interaktiv probiert werden.
+
+Die Simulationen finden Sie im Ordner **Jupyter** unter:
+
+https://mybinder.org/v2/gh/CsharpLassi/courseKondensator/master
+
+## Übungsaufgaben
+
+In diesem Kurz sind einige Übungsaufgaben verteilt, die ihnen helfen sollen das gehörte und gelesene zu reflektieren.
+
+Bei Fragen zum ankreuzen müssen Sie mit der **Darstellung aufpassen**. Die folgende Darstellung zeigt ihnen das Sie alles richtig beantworten haben. 
+
+![Kreuzelfragen](../Bilder/Aufgaben.png)
