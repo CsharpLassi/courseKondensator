@@ -2,6 +2,8 @@
 
 ## Bilder
 
+- Dreischluchtenstaudamm: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) Christoph Filnkößl: https://de.wikipedia.org/wiki/Drei-Schluchten-Talsperre#/media/Datei:Dreischluchtendamm_hauptwall_2006.jpg 
+- Traktorreifen: [CC BY 2.5](https://creativecommons.org/licenses/by/2.5)  Werner Willmann: https://de.wikipedia.org/wiki/Landwirtschaftsreifen#/media/Datei:Traktor_R%C3%BCckansicht.jpg
 - Leider Flasche: Gemeinfrei: https://de.wikipedia.org/wiki/Kondensator_(Elektrotechnik)#/media/Datei:Leid-flasch.gif
 - RC-Tiefpass: Fleshgrinder - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=8054477
 
