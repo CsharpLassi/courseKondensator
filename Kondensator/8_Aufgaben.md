@@ -50,7 +50,7 @@
 
 Die häufigste Anwendung eines Kondensators ist die Anwendung als Tiefpass. 
 
-![Tiefpass](https://upload.wikimedia.org/wikipedia/commons/e/e8/Tiefpass.svg)
+![Tiefpass](../Bilder/Tiefpass/aufbau.png)
 
 6. Berechnen Sie von einem Tiefpass die Zeitkonstante $\tau$ für eine Kondensator mit der Kapazität von $220 \mu \text{F}$ und einem Widerstand von $100 \text{k}\Omega$.
 
