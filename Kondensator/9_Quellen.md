@@ -6,6 +6,7 @@
 - Traktorreifen: [CC BY 2.5](https://creativecommons.org/licenses/by/2.5)  Werner Willmann: https://de.wikipedia.org/wiki/Landwirtschaftsreifen#/media/Datei:Traktor_R%C3%BCckansicht.jpg
 - Plattenkondensator: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)  Hannes Grobe:https://de.wikipedia.org/wiki/Kondensator_(Elektrotechnik)#/media/Datei:Plattenkondensator_hg.jpg
 - Leider Flasche: Gemeinfrei: https://de.wikipedia.org/wiki/Kondensator_(Elektrotechnik)#/media/Datei:Leid-flasch.gif
+- Vorlesung Michael Faraday: Gemeinfrei: https://de.wikipedia.org/wiki/Michael_Faraday#/media/Datei:Faraday_Michael_Christmas_lecture.jpg
 - RC-Tiefpass: Fleshgrinder - Eigenes Werk, Gemeinfrei, https://commons.wikimedia.org/w/index.php?curid=8054477
 
 ## Audio
