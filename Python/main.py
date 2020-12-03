@@ -80,7 +80,8 @@ def u_c_t(u_t, tau, dt):
     q = 0
     r = tau / c
     for u in u_t:
-        yield u_c
+        i_c = (u - u_c) / r
+        yield u_c, i_c
         i = (u - u_c) / r
         q += i * dt
         u_c = q / c
@@ -95,7 +96,7 @@ def print_square_function(name, u=5, f_f=1, tau=2, e_tau='s'):
     u_t = u * (signal.square(2 * np.pi * f * t) / 2 + 0.5)
 
     plt.plot(t, u_t, color='b')
-    plt.plot(t, list(u_c_t(u_t, tau, dt)), color='g')
+    plt.plot(t, [u_c for u_c, i_c in u_c_t(u_t, tau, dt)], color='g')
 
     plt.grid()
     plt.xlim((0, t[-1]))
@@ -120,7 +121,7 @@ def print_sin_function(name, u=5, f_f=1, tau=2, e_tau='s'):
     u_t = u * (np.sin(2 * np.pi * f * t) / 2 + 0.5)
 
     plt.plot(t, u_t, color='b')
-    plt.plot(t, list(u_c_t(u_t, tau, dt)), color='g')
+    plt.plot(t, [u_c for u_c, i_c in u_c_t(u_t, tau, dt)], color='g')
 
     plt.grid()
     plt.xlim((0, t[-1]))
@@ -128,6 +129,50 @@ def print_sin_function(name, u=5, f_f=1, tau=2, e_tau='s'):
 
     plt.xlabel(rf'Zeit in {e_tau}')
     plt.ylabel(r'Spannung in V')
+
+    f_name = f'output/{name}.png'
+    os.makedirs(os.path.dirname(f_name), exist_ok=True)
+    plt.savefig(f_name)
+
+    plt.clf()
+
+
+def print_sin_u_i_function(name, phi=-45, e_t='s'):
+    f = 0.5
+    t = np.linspace(0, 2 / f, 500, endpoint=False)
+
+    phi_rad = phi / 180 * np.pi
+
+    u_max = 1
+    i_max = 0.75
+
+    u_t = u_max * np.sin(2 * np.pi * f * t)
+    i_t = i_max * np.sin(2 * np.pi * f * t - phi_rad)
+
+    plt.plot(t, u_t, color='b', label="Spannung")
+    plt.plot(t, i_t, color='r', label="Strom")
+
+    plt.grid()
+    plt.xlim((0, t[-1]))
+
+    # Markers
+    if phi != 0:
+        t_u_max = 1 / (4 * f)
+        t_i_max = t_u_max + phi / 90 * 1 / (4 * f)
+
+        plt.plot([t_u_max, t_u_max],
+                 [u_max, u_max + 0.5], color='b')
+
+        plt.plot([t_i_max, t_i_max],
+                 [i_max, u_max + 0.5], color='r')
+
+        plt.plot([t_u_max, t_i_max],
+                 [u_max + 0.4, u_max + 0.4], color='black')
+
+        plt.text((t_i_max+t_u_max)/2-0.05, u_max + 0.45, fr'$\varphi$', fontsize=12)
+
+    plt.xlabel(rf'Zeit in {e_t}')
+    plt.legend()
 
     f_name = f'output/{name}.png'
     os.makedirs(os.path.dirname(f_name), exist_ok=True)
@@ -151,6 +196,8 @@ def main():
     print_sin_function('sin_1')
     print_sin_function('sin_2', f_f=2)
     print_sin_function('sin_4', f_f=4)
+
+    print_sin_u_i_function('sin_u_i_1')
 
 
 if __name__ == '__main__':
