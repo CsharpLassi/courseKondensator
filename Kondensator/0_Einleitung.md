@@ -14,9 +14,11 @@ In diesem Kurs wird die Funktionsweise des Kondensators genauer erklärt.
 
 Für diesen Kurz gibt es eine Vielzahl von Simulationen, die Simulationen sind in Python programmiert und können online interaktiv probiert werden.
 
-Die Simulationen finden Sie im Ordner **Jupyter** unter:
+Die Simulationen finden Sie im Ordner **Kondensator** unter:
 
-https://mybinder.org/v2/gh/CsharpLassi/courseKondensator/master
+https://mybinder.org/v2/gh/CsharpLassi/etJupyter/HEAD
+
+In diesem Projekt finden Sie auch weitere Simulationen, zu verschiedenen Themen der Elektrotechnik.
 
 ## Übungsaufgaben
 
