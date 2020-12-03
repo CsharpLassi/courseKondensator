@@ -37,8 +37,8 @@ def print_discharge_curve(name: str, u=5, tau=2, e_tau='s'):
     plt.clf()
 
 
-def print_charge_curve(name: str, u=5, tau=2, e_tau='s'):
-    x = np.linspace(0, 6.5 * tau)
+def print_charge_curve(name: str, u=5, tau=2, base_tau=2, e_tau='s'):
+    x = np.linspace(0, 6.5 * base_tau)
     y = u * (1 - np.exp(-x / tau))
     t = u / tau * x
 
@@ -59,6 +59,10 @@ def print_charge_curve(name: str, u=5, tau=2, e_tau='s'):
     os.makedirs(os.path.dirname(f_name), exist_ok=True)
 
     plt.savefig(f_name)
+
+    # Tau
+    plt.axvline(tau, color='r')
+    plt.text(tau + 0.1, +0.1, f'$𝜏 = {tau} s$', fontsize=12)
 
     # Tangente
     plt.plot(x, t, 'm')
