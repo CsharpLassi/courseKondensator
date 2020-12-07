@@ -70,7 +70,7 @@ Die häufigste Anwendung eines Kondensators ist die Anwendung als Tiefpass.
 
 In den nachfolgenden Aufgaben benötigen Sie folgendes Diagramm:
 
-![Ladekurve](../Bilder/Diagramme/ladekurve_tangende.png)
+![Ladekurve](../Bilder/DC/Diagramme/ladekurve_tangende.png)
 
 8. Bestimmen Sie aus dem Diagramm die Zeitkonstante $\tau$.
 

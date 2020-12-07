@@ -18,7 +18,11 @@ Die Simulationen finden Sie im Ordner **Kondensator** unter:
 
 https://mybinder.org/v2/gh/CsharpLassi/etJupyter/HEAD
 
+oder unter Github: https://github.com/CsharpLassi/etJupyter
+
 In diesem Projekt finden Sie auch weitere Simulationen, zu verschiedenen Themen der Elektrotechnik.
+
+**Video:** https://youtu.be/EcjAlTXb-X8
 
 ## Übungsaufgaben
 
