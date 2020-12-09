@@ -28,6 +28,6 @@ In diesem Projekt finden Sie auch weitere Simulationen, zu verschiedenen Themen 
 
 In diesem Kurz sind einige Übungsaufgaben verteilt, die ihnen helfen sollen das gehörte und gelesene zu reflektieren.
 
-Bei Fragen zum ankreuzen müssen Sie mit der **Darstellung aufpassen**. Die folgende Darstellung zeigt ihnen das Sie alles richtig beantworten haben. 
+Bei Fragen zum ankreuzen müssen Sie mit der **Darstellung** der Ergebnisse aufpassen. Das folgende Bild zeigt ihnen das Sie alles richtig beantworten haben. 
 
 ![Kreuzelfragen](../Bilder/Aufgaben.png)
