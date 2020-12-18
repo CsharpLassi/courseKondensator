@@ -1,0 +1,36 @@
+\documentclass[border=7pt, convert={density=300,outext=.png}]{standalone}
+\usepackage{tikz}
+
+\usepackage[europeanresistors,americaninductors]{circuitikz}
+
+\begin{document}
+\begin{tikzpicture}
+
+\draw (0,0) to[V,v<=$U$] (0,4) to [short,i=$I$] +(3,0) to [short] + (0,-1.5) 
+    to [short] + (-2,0) to [short] + (4,0);
+
+\draw (0,0)  to [short, i<=$I$] + (3,0) to [short] + (0,+1.5) to [short] + (-2,0) to [short] + (4,0);
+
+\draw  (1,0.15) node[circle,draw,scale=0.4]{-};
+\draw  (2,0.15) node[circle,draw,scale=0.4]{-};
+\draw  (3-0.15,0.15) node[circle,draw,scale=0.4]{-};
+
+\draw  (3-0.15,1.15) node[circle,draw,scale=0.4]{-};
+
+\draw  (3-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (2.7-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (2.4-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (2.1-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (1.8-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (1.5-0.15,1.38) node[circle,draw,scale=0.4]{-};
+
+\draw  (3-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (3.3-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (3.6-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (3.9-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (4.2-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (4.5-0.15,1.38) node[circle,draw,scale=0.4]{-};
+\draw  (4.8-0.15,1.38) node[circle,draw,scale=0.4]{-};
+
+\end{tikzpicture}
+\end{document}

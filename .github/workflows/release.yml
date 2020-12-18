@@ -6,7 +6,7 @@ on:
     - 'v*'
 
 jobs:
-  test:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,10 +18,9 @@ jobs:
 
     - name: Install requirements
       run: |
-        python -m pip install --upgrade pip
-        cd Python
-        pip install -r requirements/production.txt
-        python -m pip install pycourselet
+        pip install --upgrade pip
+        pip install -r Python/requirements/production.txt
+        pip install -r requirements.txt
 
     - name: Test Python
       run: |
@@ -59,6 +58,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./Kondensator.zip
+        asset_path: ./Kondensator.courselet.zip
         asset_name: Kondensator.courselet.zip
         asset_content_type: application/zip

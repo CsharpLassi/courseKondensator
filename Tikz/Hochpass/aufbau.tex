@@ -1,0 +1,15 @@
+\documentclass[border=7pt, convert={density=300,outext=.png}]{standalone}
+\usepackage{tikz}
+
+\usepackage[europeanresistors,americaninductors]{circuitikz}
+
+\begin{document}
+\begin{tikzpicture}
+
+\draw (0,0) to[V,v<=$U$] (0,2) to [C, l_=C] +(3,0)  node(P_I1){}
+    to[R,l_=R, v^=$U_R$,i_=$I_R$] + (0,-2) node(P_I3){} 
+    to[short] + (-3,0);
+
+
+\end{tikzpicture}
+\end{document}
