@@ -1,1 +1,1 @@
-pycourselet>=0.2.2
+pycourselet>=0.2.3
