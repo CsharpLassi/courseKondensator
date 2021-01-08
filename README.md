@@ -5,6 +5,7 @@
 ### Version 1.1.0
 
 - Update: Aufgabe 3 - Aufgabe umformuliert
+- Update: Aufgabe 5 - Aufgabe umformuliert
 
 ### Version 1.0.1
 

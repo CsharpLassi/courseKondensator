@@ -38,7 +38,7 @@
 
    [] $0,99 \mu \text{C}$
 
-5. Berechnen Sie Ladung für einen Alumnium-Elektrolytkondensatoren mit $0,18 \mu\text{F}$ und $5,5 \text{V}$.
+5. Berechnen Sie welche Ladung eine Alumnium-Elektrolytkondensator mit einer Kapaität $0,18 \mu\text{F}$ bei einer Spannung $5,5 \text{V}$ speichert.
 
    [] $1 \text{mC}$
 
