@@ -20,7 +20,7 @@
 
    [] $20 \text{nF}$
 
-3. Berechnen Sie welche Fläche notwendig wäre, um ein Folienkondensator aus PET ($\epsilon_r = 3,3$) mit einer Kapazität von $1 \text{F}$. Der Abstand wieder $d= 700 \text{nm}$.
+3. Berechnen Sie die notwendige Fläche, um ein Kondensator mit einer Kapazität von $1\text{F}$ herzustellen.   Relative Permittivität: $\epsilon_r = 3,3$; Abstand: $d= 700 \text{nm}$.
 
    [] ca. $1 \text{m}^2$
 
